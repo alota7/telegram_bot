@@ -137,7 +137,7 @@ def forward_to_admin(message):
     admin_to_user_map[sent.message_id] = user_id
     user_to_admin_map[message.message_id] = sent.message_id
 
-    bot.send_message(message.chat.id, "✅ ጥያቄዎ ተልኳል።\nYour question has been sent!\nWait for the Answer...")
+    bot.send_message(message.chat.id, "✅ ጥያቄዎ ተልኳል...\nYour question has been sent!\nWait for the Answer...")
 
 # ==========================================
 # ADMIN REPLY (ALL TYPES, HIDE ADMIN NAME)
